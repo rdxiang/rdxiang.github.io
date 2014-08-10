@@ -1,0 +1,53 @@
+---
+layout: post
+title: '2048'
+date: 2014-03-28 21:38:32.000000000 -07:00
+---
+<small> Side note: I realize it's pretty sad that ive gotten to the point of blogging about my (pretty awesome) 2048 strategy... but hey at least powers of 2 are related to programmng... right? </small>
+
+
+---
+#### So what's 2048?
+
+Best <s>time waster </s> [game](http://gabrielecirulli.github.io/2048/)  ever.
+
+
+#### Okay now what's your strategy?
+
+It all comes down to organization. 
+
+**1. Keep similar values squares together in a 'gradient of values'**
+
+You'll notice that when your board fills up, you might have some similar high values, it's just there's no way to merge them all together to create new room. Instead, the new '2' and '4' block fill up randomly and block your path. (At the same time, these high value squares block the 2s, 4s, and 8s from merging into bigger value as well). 
+
+So one idea is to keep similar values together, and layer them. (So when low values become medium values, they can easily be merged down into a new layer and then be merged down into a new layer and there's always things to merge).
+
+So how can we do this?
+
+
+**2. This means limit your key presses to 3 directions only (if possible).**
+
+I typically try to merge down (and use left and rights). What this guarantees is that your largest values are on the bottom! This is great because if you're bottom is filled up with large values, you also limit new '2' and '4' block to being created on the top! (whoo!)
+
+With this strategy, playing the 'up' key risks generating a '2' or '4' on my bottom row, which will never get merged if it's surrounded by large values. 
+
+
+
+**3. Not only should we have a order values by row, but order inside your row is helpful too**
+
+Now, if we keep order in our largest row, we can choose a corner for our largest value. (Since really, it's the hardest value to merge). Let's use some images to see what I mean. (and by that I mean one image)
+
+
+**'Ideal' Set up'**
+
+<img src="/content/images/2014/Mar/Screenshot_from_2014_03_29_00_15_56.png" style="width: 500px;"/>
+
+Oncewe make an '8' on the third from top row, we can keep merging right on the bottom row!
+
+
+I was going to make a gif to be less confusing, but then I get distracted and keep playing until this happens... oops! So good luck!
+
+
+<img src="/content/images/2014/May/Screenshot_from_2014_04_23_10_51_29.png" style="width: 500px;"/>
+
+
