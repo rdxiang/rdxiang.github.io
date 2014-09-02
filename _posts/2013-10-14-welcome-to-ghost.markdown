@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: article
 title: Welcome
 date: 2013-10-14 01:46:21.000000000 -07:00
 ---
 <s> Here's a post I'll eventually edit to sound like I'm a wise and wonderful blogger whose posts you'll love to read! So far so good!
 
-
 > "Rachel is a wonderful blogger. Her blog is wonderful. But she should really do her 280 project instead of messing around with markdown." 
+
 </s>
 
 

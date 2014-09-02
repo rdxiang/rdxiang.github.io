@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Python Basics
 date: 2013-12-21 22:17:05.000000000 -08:00
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Project Euler Problem 2
 date: 2013-12-03 10:38:51.000000000 -08:00
 ---

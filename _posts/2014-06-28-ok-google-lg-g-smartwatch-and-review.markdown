@@ -1,12 +1,14 @@
 ---
-layout: post
+layout: article
 title: '"Ok Google" - Life with the LG G Smartwatch'
 date: 2014-06-28 20:05:12.000000000 -07:00
 ---
-<a href="http://imgur.com/QEmh18j"><img src="http://i.imgur.com/QEmh18j.jpg?2" title="Hosted by imgur.com"/></a>
+
 
 
 **TL;DR** Unlike Glass/phones/tablets, it's not so much another device as it is an extension of a phone. Life's more convinient now, but if you're not someone who's 'on the go' a lot it's probably not worth currently. Definitely has potential. 
+
+<a href="http://imgur.com/QEmh18j"><img src="http://i.imgur.com/QEmh18j.jpg?2" title="Hosted by imgur.com"/></a>
 
 ###Initial Impressions
 

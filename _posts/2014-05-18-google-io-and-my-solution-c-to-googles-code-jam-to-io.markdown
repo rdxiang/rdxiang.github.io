@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Google I/O! (and my solution C to Google's Code Jam to I/O)
 date: 2014-05-18 10:47:41.000000000 -07:00
 ---

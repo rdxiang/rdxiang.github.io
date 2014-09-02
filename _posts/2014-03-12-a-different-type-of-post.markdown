@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: A Different Type of Post
 date: 2014-03-12 20:01:40.000000000 -07:00
 ---

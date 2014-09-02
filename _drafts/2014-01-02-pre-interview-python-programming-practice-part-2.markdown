@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Pre-Interview Python Programming Practice Part 2
 ---
 I was doing a few more practice interview problems today and thought I should write a small post since I'm proud of this one! This one happens to also be about nested list comprehension (I think I'm geetting the hang of it).

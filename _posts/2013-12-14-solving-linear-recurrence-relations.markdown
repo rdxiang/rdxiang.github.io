@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Solving Linear Recurrence Relations
 date: 2013-12-14 12:50:07.000000000 -08:00
 ---

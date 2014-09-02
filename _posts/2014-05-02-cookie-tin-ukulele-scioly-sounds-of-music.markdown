@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Cookie Tin Ukulele (Scioly - Sounds of Music)
 date: 2014-05-02 16:48:32.000000000 -07:00
 ---

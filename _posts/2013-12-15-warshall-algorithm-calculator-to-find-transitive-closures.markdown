@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Warshall Algorithm 'Calculator' to find Transitive Closures
 date: 2013-12-15 10:54:56.000000000 -08:00
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Sublime SFTP
 date: 2014-02-02 16:17:39.000000000 -08:00
 ---
