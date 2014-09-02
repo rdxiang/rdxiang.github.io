@@ -1,9 +1,9 @@
 ---
 layout: article
-title: "About me"
+title: ""
 date: 
 modified:
-excerpt: 
+excerpt:
 image:
   feature:
   teaser:

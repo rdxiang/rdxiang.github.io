@@ -2,39 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21a4034a-b444-442a-962b-8e6d26b6fcfe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/rdxiang.github.io.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/about.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/feed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-10-14-welcome-to-ghost.markdown" afterPath="$PROJECT_DIR$/_posts/2013-10-14-welcome-to-ghost.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-11-22-syntax-highlighting-test.markdown" afterPath="$PROJECT_DIR$/_posts/2013-11-22-syntax-highlighting-test.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-12-03-project-euler-problem-2.markdown" afterPath="$PROJECT_DIR$/_posts/2013-12-03-project-euler-problem-2.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-12-14-solving-linear-recurrence-relations.markdown" afterPath="$PROJECT_DIR$/_posts/2013-12-14-solving-linear-recurrence-relations.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-12-15-warshall-algorithm-calculator-to-find-transitive-closures.markdown" afterPath="$PROJECT_DIR$/_posts/2013-12-15-warshall-algorithm-calculator-to-find-transitive-closures.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-12-21-pre-programming-interview-practice-posts-part-1.markdown" afterPath="$PROJECT_DIR$/_posts/2013-12-21-pre-programming-interview-practice-posts-part-1.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-12-30-pre-interview-python-programming-practice-part-1.markdown" afterPath="$PROJECT_DIR$/_posts/2013-12-30-pre-interview-python-programming-practice-part-1.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_drafts/2014-01-02-pre-interview-python-programming-practice-part-2.markdown" afterPath="$PROJECT_DIR$/_drafts/2014-01-02-pre-interview-python-programming-practice-part-2.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-02-02-sublime-sftp.markdown" afterPath="$PROJECT_DIR$/_posts/2014-02-02-sublime-sftp.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-03-12-a-different-type-of-post.markdown" afterPath="$PROJECT_DIR$/_posts/2014-03-12-a-different-type-of-post.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-03-28-2048.markdown" afterPath="$PROJECT_DIR$/_posts/2014-03-28-2048.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-05-02-cookie-tin-ukulele-scioly-sounds-of-music.markdown" afterPath="$PROJECT_DIR$/_posts/2014-05-02-cookie-tin-ukulele-scioly-sounds-of-music.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-05-18-google-io-and-my-solution-c-to-googles-code-jam-to-io.markdown" afterPath="$PROJECT_DIR$/_posts/2014-05-18-google-io-and-my-solution-c-to-googles-code-jam-to-io.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-06-28-ok-google-lg-g-smartwatch-and-review.markdown" afterPath="$PROJECT_DIR$/_posts/2014-06-28-ok-google-lg-g-smartwatch-and-review.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-08-10-welcome-to-jekyll.markdown" afterPath="$PROJECT_DIR$/_posts/2014-08-10-welcome-to-jekyll.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/index.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/about/index.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.md" afterPath="$PROJECT_DIR$/index.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_data/navigation.yml" afterPath="$PROJECT_DIR$/_data/navigation.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rdxiang.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,21 +52,34 @@
       <file leaf-file-name="navigation.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_data/navigation.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/about/index.md">
+        <entry file="file://$PROJECT_DIR$/archive/index.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17256637" vertical-offset="0" max-vertical-offset="1130">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.119469024" vertical-offset="0" max-vertical-offset="1130">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.2222223" vertical-offset="0" max-vertical-offset="330">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -124,8 +109,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/_config.yml" />
-        <option value="$PROJECT_DIR$/_data/navigation.yml" />
         <option value="$PROJECT_DIR$/about/index.md" />
+        <option value="$PROJECT_DIR$/_data/navigation.yml" />
+        <option value="$PROJECT_DIR$/index.md" />
+        <option value="$PROJECT_DIR$/archive/index.md" />
       </list>
     </option>
   </component>
@@ -197,7 +184,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="about" />
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rdxiang.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rdxiang.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="archive" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -241,7 +242,54 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/archive" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -326,19 +374,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_data/navigation.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about/index.md">
+    <entry file="file://$PROJECT_DIR$/index.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17256637" vertical-offset="0" max-vertical-offset="1130">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.2222223" vertical-offset="0" max-vertical-offset="330">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive/index.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.119469024" vertical-offset="0" max-vertical-offset="1130">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding />
         </state>
       </provider>

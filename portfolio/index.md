@@ -1,10 +1,9 @@
 ---
 layout: article
-permalink: /
-title: "About me"
+title: ""
 date: 
 modified:
-excerpt: 
+excerpt:
 image:
   feature:
   teaser:
@@ -12,5 +11,3 @@ image:
 ads: false
 ---
 
-
-omggg
