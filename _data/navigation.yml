@@ -2,11 +2,19 @@
 
 - title: About
   url: /
-  excerpt: "Things I’ve designed, illustrated, developed, coded, and whatever."
-  image: 300x200.gif
+ # image: 300x200.gif
 
-- title: Portfolio
-  url: /portfolio/
+- title: Programming
+  excerpt: "Posts about side projects, classes, and codinging in general"
+  url: /programming/
 
-- title: Blog
+- title: Art
+  excerpt: "Posts about my quest to get better at digital painting!"
+  url: /art/
+
+- title: Etc.
+  excerpt: "Anything and everything!"
+  url: /other/
+
+- title: "{All Posts}"
   url: /archive/

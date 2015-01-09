@@ -2,6 +2,7 @@
 layout: article
 title: Project Euler Problem 2
 date: 2013-12-03 10:38:51.000000000 -08:00
+categories: programming
 ---
 <small>(Spoilers below!)</small>
 
@@ -18,7 +19,7 @@ Having negative indices proves to be pretty useful! The '-1' element of  a list 
 (Currently this solution works, but can definitely be made more efficient- I'll update if I made changes)
 
 
-<pre> <code>
+{% highlight python %}
 fibList = [1,1]
 fibSum = 0
 while fibList[-1] <= 4000000:
@@ -27,5 +28,5 @@ while fibList[-1] <= 4000000:
 		fibSum += num
 	fibList.append(num)
 print fibSum
-</code> </pre>
+{% endhighlight %}
 

@@ -2,6 +2,7 @@
 layout: article
 title: Pre-Interview Python Programming Practice Part 1
 date: 2013-12-30 16:43:21.000000000 -08:00
+categories: programming
 ---
 <small> I show my emotions through alliteration, okay?</small>
 

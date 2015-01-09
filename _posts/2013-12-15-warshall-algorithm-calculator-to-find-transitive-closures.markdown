@@ -2,6 +2,7 @@
 layout: article
 title: Warshall Algorithm 'Calculator' to find Transitive Closures
 date: 2013-12-15 10:54:56.000000000 -08:00
+categories: programming
 ---
 <h4> Background and Side Story</h4>
 I've been trying out a few [Udacity](http://www.udacity.com) courses in my spare time, and after the first unit of CS253 (Web applications), I decided to try my hand at making one!
@@ -21,7 +22,7 @@ It uses Warshall's algorithm (which is pretty awesome!) to find the transistive 
 
 Here's the python function I used:
 
-<pre><code>
+{% highlight python %}
  def transitiveClosure (matrix):
     result = ""
     length = len(matrix)
@@ -33,4 +34,4 @@ Here's the python function I used:
     result += ("\n Transitive closure is \n" + str(matrix).replace("]," , "]\n"))
     print result
     return result
-</code> </pre>
+{% endhighlight %}

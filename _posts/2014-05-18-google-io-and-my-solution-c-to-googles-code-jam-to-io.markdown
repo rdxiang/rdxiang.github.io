@@ -1,12 +1,16 @@
 ---
 layout: article
 title: Google I/O! (and my solution C to Google's Code Jam to I/O)
+image:
+  teaser: googleio.png
 date: 2014-05-18 10:47:41.000000000 -07:00
+categories: programming
+
 ---
-![](/content/images/2014/May/Screen_Shot_2014_05_16_at_6_42_53_PM.png)
 
-"But wait Rachel - how are you an important partner to Google?" you may ask. And you would be right! 
+"But wait Rachel - you're not an important partner to Google!" you may say... and you would be right.
 
+![](http://i.imgur.com/GXMZpVQ.png)
 
 
 ## About Google Code Jam to I/O for Women
@@ -72,28 +76,26 @@ Since we don't care about the actual seating order of people in this step, we us
 One trick is that since order doesn't matter, if we have **Y** tables of the same size (which happens often with this problem), we'll need to divide by **Y!**.
 
 **PsuedoCode:**
-<pre> <code>
-
-//Calculating differnt ways to split people into tables
-ways := 1
+{% highlight python %}
+#Calculating differnt ways to split people into tables
+ways = 1
 peopleAtTable = floor(N/K)
 
-// Tables with one additional person
+# Tables with one additional person
 for tables with (peopleAtTable + 1) people:
-	ways *= nCr(N, peopleAtTable + 1)
-    N -= peopleAtTable +1
+    ways *= nCr(N, peopleAtTable + 1)
+    N -= peopleAtTable + 1
     
 ways /= number of Tables with (peopleAtTable +1) people
 
-for tables with (peopleatTable) people"
-	ways *= nCr(N, peopleAtTable)
+for tables with (peopleatTable) people:
+    ways *= nCr(N, peopleAtTable)
     N -= peopleAtTable
 
 ways /= number of Tables with (peopleAtTable) people
 
-// ways now has the number of different combinations you can split people into
-</code> </pre>
-
+#ways now has the number of different combinations you can split people into
+{% endhighlight %}
 
 ### Step 2: Number of unique seating arrangements with X people.
 
@@ -107,7 +109,7 @@ I started noticing a pattern - you're basically trying to calculate different pe
 
 ## Solution
 
-<pre><code>
+{% highlight python %}
 
 import math
 
@@ -168,7 +170,7 @@ if __name__ == "__main__":
         case += 1
 
 
-</code></pre>
+{% endhighlight %}
 
 
 I waited until after the competition was over to submit (perhaps I'm too risk adversive!) It passed both the large and small text files.

@@ -2,14 +2,16 @@
 layout: article
 title: Python Basics
 date: 2013-12-21 22:17:05.000000000 -08:00
+categories: programming
+image:
+  teaser: python.png
 ---
-** Note: This post is not done yet! I published too early and now I'm too lazy to make a new one whoops...**
-
 
 Hi there! I have my first programming interview coming up, so natrually,  I'm <s>really nervous </s> going to do a few practice problems to get more comfortable. 
 
-I think I'll be interviewing in Python since my wise and talented friend (who reads my blog heh) advised me to do so. It'll probably allow me to write fewer lines of code and make fewer mistakes, but I've only started writing Python a few months ago so I definitely need to practice... nervous laughter.
+I think I'll be interviewing in Python since my wise and talented friend (who reads my blog heh) advised me to do so. It'll probably allow me to write fewer lines of code and make fewer mistakes, but I've only started writing Python a few months ago so I definitely need to practice.
 
+* Note: This guide is not complete*
 ---
 <small> Note: Much of this content comes from python 3 documentation and the open soruce(!) [Runstone Interactive Python Guide](http://interactivepython.org/runestone/static/pythonds/index.html) which is amazing. I honestly can't recommend it enough. This blog post is basicaly information from both sources put together in a format that'll be quicker for me to review in the future. Seriously though, all of the lovely tables are from the runestone guide</small>
 
@@ -38,7 +40,7 @@ I think I'll be interviewing in Python since my wise and talented friend (who re
 8. [Style](#style)
 
 ---
-<a name="basic"/> </a>
+<a name="basic"/> 
 
 ## Basics and  Arithmetic
 ###Things to remember: 
@@ -51,12 +53,13 @@ I think I'll be interviewing in Python since my wise and talented friend (who re
 
 
 ---
-<a name="control"/> </a>
+<a name="control"/> 
 
 ##Control Statements
  **Selection**
  Here's an example. Similar to other languages.
-<pre> <code> 
+
+{% highlight python %}
 def shouldIWakeUp(time):
 	if time < 5:
     	print("Omg go back to sleep ungodly hour")
@@ -64,26 +67,30 @@ def shouldIWakeUp(time):
     	print("You could probably wake up")
     else:
     	print("You're probably late. Look what you did.")  
-</code> </pre>
+{% endhighlight %}
+
 
  
  **Iteration**
  Here's two exampes (while and for). Similar to other languages. Note the use of `range()` with the for loop.
- <pre> <code> 
+
+{% highlight python %}
 while true:
 	print("This is an infinite loop and" 
     "probably not the greatest example"
     "But at least I'm demonstrating string concatination!")
-</code> </pre>
+{% endhighlight %}
 
- <pre> <code> 
+
+{% highlight python %}
  for x in range(10, 0, -1):
  	print("Counting down:" + str(x) + "seconds to go!")
-</code> </pre>
+{% endhighlight %}
+
 
 ---
 
-<a name="datastructs"/> </a>
+<a name="datastructs"/> 
 
 
 ##Basic Data Structures/Collections
@@ -131,7 +138,7 @@ while true:
 </tbody>
 </table>
 
-*taken from Runestone Interactive*
+*credit to  Runestone Interactive*
 
 **Lists**
 
@@ -193,7 +200,6 @@ while true:
 </table>
 
 
-
 **Strings** are immutable (remember this!)
 
 *Methods*
@@ -210,14 +216,15 @@ There are also some useful constants like `string.ascii_lowercase` etc.
 
 Example Code:
 
-<pre> <code>
+{% highlight python %}
 t1 = 123, '24', True # make a tuple
 x, y, z = t1 # sequence unpacking example
 t2 = () # make empty tuple
 t3 = ('cats' ,) # note the comma, tuple with one element
-</code></pre>
+{% endhighlight %}
 
 ---
+
 ###Unordered Collections (Dictionaries and Sets)
 
 **Sets**
@@ -331,24 +338,25 @@ Python lets you iterate through lists in a very nice one-line format. For exampl
 
 One tip that helps me is to ask what the nestest list statement would be written out in loop form. Here's a general form for nested loop comprehension:
 
-<pre> <code>
+{% highlight python %}
 [ expression
 	for x in y if  predicate(x)
     for y in z]
-</code> </pre>
+{% endhighlight %}
 
 corresponds to 
 
-<pre> <code>
+{% highlight python %}
 for y in z:
 	for x in y:
     	if predicate(x):
         	list.append(expression)
-</code> </pre>
+{% endhighlight %}
 
 The ordering is pretty similar except for that the expression is before everything else.
 
 ---
+
 ### Other fun
 
 
@@ -367,23 +375,23 @@ Can function as both queues and stacks.
 
 ###When should I use what? (Efficiency)
 
-
+TODO
 
 ---
   
-<a name="functions"/> </a>
+<a name="functions"/> 
 
 ## Functions 
 **basics**
 
 Here's an example:
 
-<pre> <code>
+{% highlight python %}
 def foo(argument):
 	result = []
     #do something
     return result #if you want
-</code> </pre>
+{% endhighlight %}
 
 **advanced topics**
 
@@ -392,7 +400,7 @@ def foo(argument):
 - To get command line arguments use `sys.argv`. 
 
 Examples:
-<pre> <code>
+{% highlight python %}
 def foo(title = "Untitled" , *names, **capitals):
 	print (title)
     #names is a tuple of your inputs
@@ -400,16 +408,17 @@ def foo(title = "Untitled" , *names, **capitals):
     	print n
      #capitals is a dictionary
    	return capitals.keys() 
-</code> </pre>
+{% endhighlight %}
 
 
 ---
 
-<a name="classes"/>  </a>
+<a name="classes"/>
 
 ## Classes
 **How to define a class**
-<pre> <code>
+
+{% highlight python %}
 #Basic Class Example
 class Animal():
     def  __init__(self, name):
@@ -434,7 +443,7 @@ class Chicken(Animal):
 class Cow(Animal):
     def greet(self):
         print("Moo! My name is " + self.name)
-</code> </pre>
+{% endhighlight %}
 
 **Private**
 
@@ -442,12 +451,13 @@ To make things "private" add double underscores. Note that this isn't exactly li
 
 
 Sample Output:
-<pre> <code>
+
+{% highlight python %}
 >>> a = Animal("Annie")
 Hi my name is Annie"
 >> ch = Chicken("Betty")
 Cluck! My name is Betty
-</code> </pre>
+{% endhighlight %}
 
 
 
@@ -455,7 +465,7 @@ Cluck! My name is Betty
 
 Let's update our above example. Remember that in Python, multiple polymorphism is depth-first, left to right. This means it will search the first base class (and it's related clases) first for the  attribute and if it's not found it will go to the next base class.
 
-<pre> <code>
+{% highlight python %}
 
 class FlyingThings:
     def __init__ (self):
@@ -481,21 +491,21 @@ class Chicken(Animal, FlyingThings):
     def layEgg(self):
 		self.__eggsLaid += 1
 
-</code> </pre>
+{% endhighlight %}
 
 Sample Code:
-<pre> <code>
+
+{% highlight python %}
 >>> c = Chicken("Betty") 
 Cluck! My name is Betty
 >>> c.fly()
 Look at me fly!
-</code> </pre>
-
+{% endhighlight %}
 
 
 ---
 
-<a name="sands"/>  </a>
+<a name="sands"/>  
 
 ##Searches and Sorts
 
@@ -503,14 +513,13 @@ Look at me fly!
 ####Linear
  Simply iterate along until you find your desired object or reach the end. O(n) time worst case. 
  
- <pre> <code>
+{% highlight python %}
  def linearSearch(lst, obj):
  	for x in range(0, len(lst)-1):
     	if lst[x] == obj:
         	return True
     return False
- </code> </pre>
-
+{% endhighlight %}
 
 ####Binary
 This allows you to search an ordered list in O(log  n). First compare to a midpoint value. There are 3 cases:
@@ -521,7 +530,7 @@ This allows you to search an ordered list in O(log  n). First compare to a midpo
 
 
 Implementation:
-<pre> <code>
+{% highlight python %}
 def binarySearch(lst, obj):
 	# Using iteration since it will take up less space (fewer function frames)
     start, end = 0, len(lst)
@@ -534,7 +543,7 @@ def binarySearch(lst, obj):
         else 
         	start = midpoint + 1
     return False
-</code> </pre>
+{% endhighlight %}
 
 ###Sorts
 
@@ -545,20 +554,20 @@ I'm just going to write my implementations of them here and a brief summary to r
 
 A pretty simple sort. Compare adjacent terms and swap if they're in the wrong order. Worst case: $O(n^2)$
 
-<pre> <code>
+{% highlight python %}
 def bubSort(lst):
 	for i in range(len(lst)-1, 0, -1):
     	for j in range(i):
         	if lst[j] > lst[j+1]:
             	lst[j], lst[j+1] = lst[j+1], lst[j]
      return lst
-</code> </pre>
+{% endhighlight %}
 
 ####Selection
 
 Another simple sort. Make *n* passes over a list and each time select the largest term and swap it into it's proper location.  Worst case: $O(n^2)$
 
-<pre><code>
+{% highlight python %}
 def selSort(lst):
 	for i in range(len(lst), 0, -1):
     	#find the index of the largest in the pass
@@ -569,13 +578,13 @@ def selSort(lst):
         #swap the largest to the correct spot
         lst[indexLargest], lst[i-1] = lst[i-1], lst[indexLargest] 
     return lst
-</code> </pre>
+{% endhighlight %}
 
 ####Insertion
 
 With insertion sort, we start off with a "sorted" sublist of length 1. With each pass we look at the next element and insert it into the right place, shifting as appropriate. (This increases the length of the sorted sublist by 1 until it emcompasses all elements of the list.) Worst case: $O(n^2)$
 
-<pre> <code>
+{% highlight python %}
 def insSort(lst):
     for next in range(1,len(lst)):
         nextElt = lst[next]
@@ -588,7 +597,7 @@ def insSort(lst):
                 lst[j+1] = nextElt
                 break
     return lst
-</code> </pre>
+{% endhighlight %}
 
 #####Merge
 
@@ -596,7 +605,7 @@ Things start to get fun/tricky here! This sort method uses a 'divide and conquer
 
 *note: I went out of my way to try to avoid slicing as an challenge on the RunseStone Interactive page (by passing in start and end indicies) though I ended up using one to make a copy of a list anyways.  :(*
 
-<pre><code>
+{% highlight python %}
 def mergeSort(lst, start = 0, end = None):
     if end is None:
         end = len(lst)
@@ -616,7 +625,7 @@ def mergeSort(lst, start = 0, end = None):
                 lst[x] = copy[rightIndex]
                 rightIndex += 1
     return lst
-</code></pre>
+{% endhighlight %}
 
 Interesting link on making merge sort more efficient/tail recursive in Python: [here](http://blog.garillot.net/post/9048852162/how-do-you-make-a-recursive-merge-sort-more-efficient)
 
@@ -632,21 +641,22 @@ Interesting link on making merge sort more efficient/tail recursive in Python: [
 
 ---
 
-<a name="errors"/>  </a>
+<a name="errors"/> 
 
 ###  Error Handling
 
 
-
+TODO
 
 ---
 
-<a name="style"/>  </a>
+<a name="style"/>  
 
 ### Style 
 From the Google Python Style Guide
 
 Naming Conventions I usually Ignore because Underscores smh
+
 <table rules="all" border="1" cellspacing="2" cellpadding="2">      
       <tr>
         <th>Type</th>
@@ -732,10 +742,10 @@ Naming Conventions I usually Ignore because Underscores smh
 -  In Python, pydoc as well as unit tests require modules to be importable. Your code should always check if `if __name__ == '__main__':` before executing your main program so that the main program is not executed when the module is imported.
 	All code at the top level will be executed when the module is imported. Be careful not to call functions, create objects, or perform other operations that should not be executed when the file is being pydoced.
     
-<pre> <code>
+{% highlight python %}
 	def main():
     	  ...
 
 	if __name__ == '__main__':
     	main()
-</code> </pre>
+{% endhighlight %}

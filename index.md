@@ -1,7 +1,7 @@
 ---
-layout: article
+layout: default
 permalink: /
-title: "About me"
+title: "About"
 date: 
 modified:
 excerpt: 
@@ -13,4 +13,9 @@ ads: false
 ---
 
 
-omggg
+## Welcome
+
+
+It' a blog everyone!
+
+---

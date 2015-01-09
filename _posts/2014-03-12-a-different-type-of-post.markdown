@@ -1,7 +1,11 @@
 ---
 layout: article
 title: A Different Type of Post
+image:
+  teaser: ohno.png
 date: 2014-03-12 20:01:40.000000000 -07:00
+categories: art
+
 ---
 <small> gasp! This isn't about programming? </small>
 
@@ -13,7 +17,8 @@ I thought I'd write about something different today because, well, I like to do 
 
 I've liked drawing for awhile, and recently I stumbled upon some of my old work on facebook graffiti from 8th - 10th grade. Here are a few examples of how I would find (masochistic?) joy spending 2-8+ hours clicking my mouse and trying to paint with ~ 60 colors and 1 brush.
 
-![Shame this won't load?](https://s3.amazonaws.com/graffiti/cd03165e99db0bf24663c027a712050b_580x270.png)
+![](https://s3.amazonaws.com/graffiti/cd03165e99db0bf24663c027a712050b_580x270.png)
+
 ![](https://s3.amazonaws.com/graffiti/e42d5598d8fe71bbb41cdd80ebbb525f_580x270.png)
 
 
@@ -22,7 +27,7 @@ I've liked drawing for awhile, and recently I stumbled upon some of my old work 
 
 
 
- ![](https://s3.amazonaws.com/graffiti/-Wa_qmQIYOU_580x270.png)
+ ![](http://i.imgur.com/TeY115Q.png)
  
  (I still like *Spirited Away* though!)
  
@@ -36,7 +41,7 @@ Drawing digitally definitely takes some getting used to! I'm using MyPaint (whic
 
 Here's the resulting image (of a flamingo sleeping!)
 
-![](/content/images/2014/Mar/flamingo.png)
+![](http://i.imgur.com/X0Hm58F.png)
 
 
 With that, good night! 

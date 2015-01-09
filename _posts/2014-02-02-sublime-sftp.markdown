@@ -2,12 +2,13 @@
 layout: article
 title: Sublime SFTP
 date: 2014-02-02 16:17:39.000000000 -08:00
+image:
+  teaser: sublime.png
+categories: programming
 ---
-<small> Oops! It's been so long since I've written anything. (It's like i made a new year's resolution to not blog or something) </small>
 
 This is a guide to set up Sublime Text/SFTP and how to connect it to UMich's CAEN computers. (It's pretty specialized oops) I'm certainly not an expert on any of these things so I'll probably use some terms incorrectly - feel free to correct them!
 
-<small> Okay in retrospect this is a <s> pretty sad post which mainly consists of links oops</s>  wonderful guide! </small> 
 
 ---
 
@@ -21,12 +22,8 @@ Not only is this kind of annoying - it's really annoying. But after this guide, 
 
 Let's get started!
 
-
-<a name="footnote"/> </a>
-<sub> *Admittedly I was lucky enough to have someone awesome show me this the night before classes started! </sub>
-
 ---
-<a name="start"/> </a>
+<a name="start"/> 
 
 **0. Windows users, install Putty if you haven't already** 
 
@@ -41,7 +38,7 @@ Click on the appropriate link on this [page](http://www.sublimetext.com/2) depen
 
 Now head on over to this [page](https://sublime.wbond.net/installation#st2) and follow the instructions. (Basically it should look like this after you paste in the code) Now restart Sublime Text (close and reopen)
 
-![](/content/images/2014/Feb/Screenshot_from_2014_02_02_20_15_37.png)
+![](http://i.imgur.com/YtnDbbs.png)
 
 **3. Install Sublime SFTP**
 
@@ -59,7 +56,8 @@ Right click on your folder and select ` SFTP/FTP` -> ` Map to Remote...`. Good! 
 
 I've copied it below and omitted the less important things we wont change.
 
-<pre><code>  
+{% highlight json %}
+
 {
     // The tab key will cycle through the settings when first created
     // Visit http://wbond.net/sublime_packages/sftp/settings for help
@@ -83,14 +81,14 @@ I've copied it below and omitted the less important things we wont change.
     
     // Omitted stuff below is important but no need to edit!
 ...
-</code></pre>
+{% endhighlight %}
 
 
 Time to configure away! Depending on your preferences, you can modify the top 8 settings however you see fit. I typically recommend changing `upload_on_save` to be true since it's more convenient.
 
 The important thing is to change `host`, `user` and `password`. For example, if you are a UMich student, host will be `login.engin.umich.edu` and your username and password are your uniquename and password. Make sure you delete the `//` before password!
 
-Your `remote_path` will be the remote folder that your open folder's files will be saved to. For example ` /afs/umich.edu/user/e/x/example/school/engr101` or something like that if you want your files to be saved in the `engr101` folder when you sync. (The `~` just means home directory.)
+Your `remote_path` will be the remote folder that your open folder's files will be saved to. For example `/afs/umich.edu/user/e/x/example/school/engr101` or something like that if you want your files to be saved in the `engr101` folder when you sync. (The `~` just means home directory.)
 
 Now save!
 
