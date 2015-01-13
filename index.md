@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: archive
 permalink: /
-title: "About"
+title: "Welcome"
 date: 
 modified:
 excerpt: 
@@ -13,9 +13,15 @@ ads: false
 ---
 
 
-## Welcome
+It' a blog everyone! My name's Rachel, I'm a student at the University of Michigan who likes writing about comupter science, art, and ocasionally other things. After a year long haitus, I'm now (hopefully) returning to writing regularly.
 
 
-It' a blog everyone!
+<a href="http://rachelxiang.com/" target="_blank">My portfolio</a>
 
 ---
+
+<div class="tiles">
+{% for post in site.posts %}
+	{% include post-grid.html %}
+{% endfor %}
+</div><!-- /.tiles --> 
